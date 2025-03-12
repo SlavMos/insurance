@@ -1,0 +1,50 @@
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header {
+  background: #21743e;
+}
+
+.header__inner {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__List {
+  display: flex;
+}
+
+.menu__item {
+  margin: 0px 15px;
+}
+
+.menu__listLink {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fefefe;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-family: "Roboto Condensed";
+
+  transition: all 0.5s;
+  border-bottom: 1px solid transparent;
+}
+
+.menu__listLink:hover {
+  border-bottom: 1px solid #fefefe;
+}
+
+.phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fefefe;
+  text-transform: uppercase;
+}

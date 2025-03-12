@@ -1,0 +1,41 @@
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.contact {
+  padding: 100px 0px;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1b1818;
+  margin-bottom: 5px;
+}
+.text {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1b1818;
+  margin-bottom: 30px;
+}
+
+.phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1b1818;
+  text-transform: uppercase;
+}

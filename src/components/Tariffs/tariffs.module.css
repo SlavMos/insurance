@@ -1,0 +1,35 @@
+.title {
+  text-align: center;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 58px;
+  padding-bottom: 80px;
+}
+
+.tables {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 650px;
+  border-top: 7px solid #21743e;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #21743e;
+}
+th {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #21743e;
+}
