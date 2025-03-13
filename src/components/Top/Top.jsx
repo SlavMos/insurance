@@ -59,11 +59,7 @@ const Content = () => {
               Мы ценим каждого клиента и предоставляем качественный сервис
             </h1>
             <div className={s.infoImg}>
-              <img
-                className={s.benefitImg}
-                src="../../../public/mceclip0.jpg"
-                alt=""
-              />
+              <img className={s.benefitImg} src="/mceclip0.jpg" alt="" />
             </div>
 
             <div className={s.benefits}>

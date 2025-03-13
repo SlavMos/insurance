@@ -5,7 +5,7 @@ const Contact = () => {
     <div className={s.contact}>
       <div className={s.container}>
         <div className={s.inner}>
-          <img src="../../../public/Rectangle 35.png" alt="" />
+          <img src="/Rectangle 35.png" alt="" />
           <div>
             <h3 className={s.title}>Остались вопросы?</h3>
             <p className={s.text}>Звоните по указанному номеру</p>
