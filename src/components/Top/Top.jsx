@@ -17,10 +17,7 @@ const Content = () => {
             </p>
           </div>
           <div className={s.imageContainer}>
-            <img
-              src="/can-you-have-liability-insurance-on-a-financed-car.jpg"
-              alt=""
-            />
+            <img src="/car.jpg" alt="" />
           </div>
         </div>
 
