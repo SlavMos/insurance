@@ -18,7 +18,7 @@ const Content = () => {
           </div>
           <div className={s.imageContainer}>
             <img
-              src="/public/can-you-have-liability-insurance-on-a-financed-car.jpg"
+              src="/can-you-have-liability-insurance-on-a-financed-car.jpg"
               alt=""
             />
           </div>
@@ -59,7 +59,7 @@ const Content = () => {
               Мы ценим каждого клиента и предоставляем качественный сервис
             </h1>
             <div className={s.infoImg}>
-              <img className={s.benefitImg} src="/mceclip0.jpg" alt="" />
+              <img className={s.benefitImg} src="/megilp.jpg" alt="" />
             </div>
 
             <div className={s.benefits}>
