@@ -31,6 +31,11 @@
   justify-content: center;
   border-radius: 12px;
   padding: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.item:hover {
+  transform: scale(1.25);
 }
 
 /* Стили текста */
@@ -171,4 +176,108 @@
 /* Устанавливаем таблицу сразу под кнопкой */
 .item {
   position: relative;
+}
+
+table {
+  width: 650px;
+  border-top: 7px solid rgb(43, 129, 17);
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  border: 3px solid rgb(43, 129, 17);
+}
+th {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid rgb(43, 129, 17);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* полупрозрачный фон */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* чтобы модалка была поверх всего */
+}
+
+.modalContent {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  overflow-y: auto;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.tariffTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.tariffTable td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.tariffTable td:first-child {
+  font-weight: bold;
+}
+
+.tariffTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.modalButton {
+  padding: 10px 20px;
+  background-color: #2dd000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.modalButton:hover {
+  background-color: #00b30c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

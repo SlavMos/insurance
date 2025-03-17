@@ -23,7 +23,7 @@ const Header = () => {
               </li>
               <li className={s.menu__item}>
                 <a href="#" className={s.menu__listLink}>
-                  УСЛОВИЯ
+                  ТАРИФЫ
                 </a>
               </li>
               <li className={s.menu__item}>
