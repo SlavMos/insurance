@@ -39,6 +39,7 @@
   align-items: center;
   text-align: center;
   padding: 13px 15px;
+  display: inline-block;
 }
 .s {
   display: flex;
