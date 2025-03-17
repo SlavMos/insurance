@@ -1,35 +1,174 @@
-.title {
+/* Общие стили */
+.tariffs {
   text-align: center;
-  font-family: "Fira Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 58px;
-  padding-bottom: 80px;
+  padding: 50px 0;
 }
 
-.tables {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Блоки тарифов */
+.items {
   display: flex;
+  justify-content: space-around;
+  gap: 34px;
+}
+
+.item {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 12px;
+  padding: 20px;
 }
 
-table {
-  width: 650px;
-  border-top: 7px solid #21743e;
+/* Стили текста */
+.text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+/* Кнопки */
+.goldButton {
+  color: #000;
+  background-image: linear-gradient(180deg, #f6e27a 20%, #cb9b51 80%);
+  padding: 20px 40px; /* Увеличиваем padding для ширины и высоты */
+  width: 400px; /* Можно явно задать ширину */
+  height: 100px; /* Можно явно задать высоту */
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 12px 0 #ffcd57;
+  transition: all 0.5s ease;
+}
+
+/* Анимация Shine для GOLD */
+.shineButton {
+  position: relative;
+  overflow: hidden;
+}
+
+.shineButton::after {
+  content: "";
+  top: 0;
+  transform: translateX(100%);
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  z-index: 1;
+  animation: slide 2s infinite;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(128, 186, 232, 0) 99%,
+    rgba(125, 185, 232, 0) 100%
+  );
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* SILVER */
+.silverButton {
+  background-image: linear-gradient(180deg, #fefefe 20%, #9f9f9f 80%);
+  color: #000;
+  padding: 20px 40px; /* Увеличиваем padding для ширины и высоты */
+  width: 400px; /* Можно явно задать ширину */
+  height: 100px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 12px 0 #ffffff;
+  transition: all 0.5s ease;
+}
+/* Анимация Shine для SILVER */
+.silverButton.shineButton {
+  position: relative;
+  overflow: hidden;
+}
+
+.silverButton.shineButton::after {
+  content: "";
+  top: 0;
+  transform: translateX(100%);
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  z-index: 1;
+  animation: slide 2s infinite;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(47, 43, 43, 0.8) 50%,
+    rgba(128, 186, 232, 0) 99%,
+    rgba(125, 185, 232, 0) 100%
+  );
+}
+/* Текст, который появляется ниже кнопок */
+.selectedText {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+/* Стили для таблицы */
+/* Стили для таблицы */
+.selectedTable {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.tariffTable {
+  width: 100%;
   border-collapse: collapse;
-  text-align: center;
-  margin-bottom: 20px;
-  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
-td {
+.tariffTable th,
+.tariffTable td {
+  padding: 12px;
   text-align: left;
-  padding: 10px;
-  border: 1px solid #21743e;
+  border-bottom: 1px solid #ddd;
 }
-th {
-  text-align: center;
-  padding: 10px;
-  border: 3px solid #21743e;
+
+.tariffTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tariffTable tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Устанавливаем таблицу сразу под кнопкой */
+.item {
+  position: relative;
 }
