@@ -114,7 +114,7 @@ const Content = () => {
         </div>
 
         <div className={s.items}>
-          <button onClick={openModal}>
+          <button className={s.button} onClick={openModal}>
             {" "}
             <div className={s.item}>
               <svg
@@ -167,7 +167,7 @@ const Content = () => {
           >
             {modalContent}
           </Modal>
-          <button onClick={openModal2}>
+          <button className={s.button} onClick={openModal2}>
             {" "}
             <div className={s.item}>
               <svg
@@ -208,7 +208,7 @@ const Content = () => {
           >
             {modalContent2}
           </Modal>
-          <button onClick={openModal3}>
+          <button className={s.button} onClick={openModal3}>
             <div className={s.item}>
               <svg
                 width="120"
@@ -250,7 +250,7 @@ const Content = () => {
             {modalContent3}
           </Modal>
 
-          <button onClick={openModal4}>
+          <button className={s.button} onClick={openModal4}>
             <div className={s.item}>
               <svg
                 className={s.icon}

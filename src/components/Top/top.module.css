@@ -180,3 +180,6 @@
 .modalButton:hover {
   background-color: #00b30c;
 }
+.button {
+  border-radius: 25px;
+}
