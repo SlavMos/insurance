@@ -9,14 +9,18 @@ import Reviews from "./components/Reviews/Reviews";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
+import Question from "./components/Question/Question";
+import FeaturesIcons from "./components/FeaturesIcons/FeaturesIcons";
 
 function App() {
   return (
     <div>
       <Header />
       <Content />
+      <Question />
       <Tariffs />
       <About />
+      <FeaturesIcons />
       <Reviews />
       <Contact />
       <Footer />

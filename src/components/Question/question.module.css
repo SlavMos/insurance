@@ -1,0 +1,37 @@
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.question {
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  border-radius: 30px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  display: block;
+}
+
+.title {
+  font-size: 25px;
+  padding-bottom: 5px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}

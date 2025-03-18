@@ -2,6 +2,9 @@
 .tariffs {
   text-align: center;
   padding: 50px 0;
+  background-color: #c6ff6836;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .container {
@@ -9,132 +12,6 @@
   margin: 0 auto;
 }
 
-.title {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-/* Блоки тарифов */
-.items {
-  display: flex;
-  justify-content: space-around;
-  gap: 34px;
-}
-
-.item {
-  width: 200px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  padding: 20px;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-.item:hover {
-  transform: scale(1.25);
-}
-
-/* Стили текста */
-.text {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #000;
-}
-
-/* Кнопки */
-.goldButton {
-  color: #000;
-  background-image: linear-gradient(180deg, #f6e27a 20%, #cb9b51 80%);
-  padding: 20px 40px; /* Увеличиваем padding для ширины и высоты */
-  width: 400px; /* Можно явно задать ширину */
-  height: 100px; /* Можно явно задать высоту */
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  box-shadow: 0 4px 12px 0 #ffcd57;
-  transition: all 0.5s ease;
-}
-
-/* Анимация Shine для GOLD */
-.shineButton {
-  position: relative;
-  overflow: hidden;
-}
-
-.shineButton::after {
-  content: "";
-  top: 0;
-  transform: translateX(100%);
-  width: 100%;
-  height: 220px;
-  position: absolute;
-  z-index: 1;
-  animation: slide 2s infinite;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.8) 50%,
-    rgba(128, 186, 232, 0) 99%,
-    rgba(125, 185, 232, 0) 100%
-  );
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-/* SILVER */
-.silverButton {
-  background-image: linear-gradient(180deg, #fefefe 20%, #9f9f9f 80%);
-  color: #000;
-  padding: 20px 40px; /* Увеличиваем padding для ширины и высоты */
-  width: 400px; /* Можно явно задать ширину */
-  height: 100px;
-  border-radius: 12px;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  box-shadow: 0 4px 12px 0 #ffffff;
-  transition: all 0.5s ease;
-}
-/* Анимация Shine для SILVER */
-.silverButton.shineButton {
-  position: relative;
-  overflow: hidden;
-}
-
-.silverButton.shineButton::after {
-  content: "";
-  top: 0;
-  transform: translateX(100%);
-  width: 100%;
-  height: 220px;
-  position: absolute;
-  z-index: 1;
-  animation: slide 2s infinite;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(47, 43, 43, 0.8) 50%,
-    rgba(128, 186, 232, 0) 99%,
-    rgba(125, 185, 232, 0) 100%
-  );
-}
 /* Текст, который появляется ниже кнопок */
 .selectedText {
   margin-top: 20px;
@@ -280,4 +157,120 @@ th {
     opacity: 1;
     transform: scale(1);
   }
+}
+.tariffs {
+  /* background-color: #f4f4f4; */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.item {
+  width: 400px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid #00ec01;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.text {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  margin-top: 15px;
+}
+.info {
+  padding: 10px 20px;
+  background-color: #2dd000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+
+  transition: background-color 0.3s ease;
+}
+.info:hover {
+  background-color: #00b30c;
+}
+
+/* .button :hover {
+  color: #1e9c70;
+} */
+
+button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #333;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 700;
 }
