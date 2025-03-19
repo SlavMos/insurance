@@ -54,7 +54,7 @@ const Modal = ({ isOpen, onClose }) => {
   return (
     <div className={s.modalOverlay}>
       <div className={s.modal}>
-        <h1> Вопрос по гарантии</h1>
+        <h1 className={s.title}> Вопрос по гарантии</h1>
         <h2>
           Напишите свой вопрос и наш менеджер свяжется с Вами в течение 5 минут
           в рабочее время

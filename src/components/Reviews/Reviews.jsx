@@ -25,7 +25,7 @@ const Reviews = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     dots: true,
     arrows: false,
@@ -36,9 +36,9 @@ const Reviews = () => {
       <div className="container">
         <h3 className="reviews__title">Отзывы</h3>
         <div className="reviews__slider">
-          <Slider {...settings}>
+          <Slider {...settings} className="custom-slider">
             {reviewsData.map((review, index) => (
-              <div key={index} className="reviews__item">
+              <div key={index} className="reviews__item" style="width: 270px;">
                 <p className="reviews__item-name">{review.name}</p>
                 <p className="reviews__item-text">{review.text}</p>
               </div>

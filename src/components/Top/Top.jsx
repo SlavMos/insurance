@@ -25,7 +25,7 @@ const Content = () => {
   const modalContent = (
     <div className={s.modal}>
       <div className={s.modalContent}>
-        <h2 className={s.modalTitle}>Заголовок модального окна</h2>
+        <h2 className={s.modalTitle}></h2>
         <p className={s.modalText}>
           В случае возникновения гарантийного случая вам необходимо позвонить на
           нашу горячую линию. Далее мы направим вас к нашему сервис-партнеру,
@@ -43,7 +43,7 @@ const Content = () => {
   const modalContent2 = (
     <div className={s.modal}>
       <div className={s.modalContent}>
-        <h2 className={s.modalTitle}>Заголовок модального окна 2</h2>
+        <h2 className={s.modalTitle}></h2>
         <p className={s.modalText}>
           Мы сотрудничаем и осуществляем обслуживание автомобилей, находящихся
           под нашей гарантией, исключительно в специализированных сервисах.
@@ -58,7 +58,7 @@ const Content = () => {
   const modalContent3 = (
     <div className={s.modal}>
       <div className={s.modalContent}>
-        <h2 className={s.modalTitle}>Заголовок модального окна 3</h2>
+        <h2 className={s.modalTitle}></h2>
         <p className={s.modalText}>
           В случае поломки автомобиля вы можете обратиться в наш колл-центр и
           вызвать бесплатный эвакуатор, который доставит ваш автомобиль в
@@ -74,7 +74,7 @@ const Content = () => {
   const modalContent4 = (
     <div className={s.modal}>
       <div className={s.modalContent}>
-        <h2 className={s.modalTitle}>Заголовок модального окна 4</h2>
+        <h2 className={s.modalTitle}></h2>
         <p className={s.modalText}>
           При выполнении гарантийного ремонта все запасные части заменяются
           исключительно на оригинальные. Это обеспечивает высокое качество и
@@ -93,14 +93,14 @@ const Content = () => {
         <div className={s.topHeading}>
           <div className={s.gradient}>
             <div className={s.topContent}>
-              <h1 className={s.topTitle}>AUTOSAFE</h1>
+              <h1 className={s.topTitle}>AUTOSAFE24</h1>
               <p className={s.topText}>Гарантия вашего спокойствия</p>
               <p className={s.about}>
                 Надежная защита вашего автомобиля в любых ситуациях. Мы
                 предлагаем удобные и надежные страховые решения, чтобы вы могли
                 быть уверены в завтрашнем дне. Оформите страховку быстро и без
                 лишних хлопот, получая профессиональную поддержку на каждом
-                этапе. AUTOSAFE — ваш надежный партнер на дороге!
+                этапе. AUTOSAFE24 — ваш надежный партнер на дороге!
               </p>
             </div>
             <div className={s.img}>

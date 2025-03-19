@@ -11,7 +11,7 @@ const Contact = () => {
           <img src="/Rectangle 35.png" alt="" />
 
           <div className="flex items-center justify-center min-h-screen bg-gray-100">
-            <h3 className={s.title}>Остались вопросы?</h3>
+            <h3 className={s.title}>J?</h3>
             <button onClick={() => setIsModalOpen(true)} className={s.button}>
               Задать вопрос
             </button>

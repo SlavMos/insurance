@@ -22,6 +22,9 @@
   width: 320px;
   animation: fadeIn 0.3s ease-in-out;
 }
+.modal p {
+  font-size: 22px;
+}
 
 /* Поля ввода */
 .input,
@@ -60,8 +63,9 @@
 /* Кнопки */
 .modalButtons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 10px;
+  gap: 10px;
 }
 
 .btn {
@@ -82,12 +86,19 @@
 }
 
 .btnSend {
-  background: #007bff;
+  background: #2dd000;
   color: white;
 }
 
 .btnSend:hover {
-  background: #0056b3;
+  background: #2ca40b;
+}
+.title {
+  font-size: 25px;
+}
+
+.btn {
+  width: 130px;
 }
 
 /* Анимация */

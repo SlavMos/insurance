@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className={s.about}>
       <div className={s.container}>
-        <h2 className={s.title}>Что покрывает гарантия AUTOSAFE</h2>
+        <h2 className={s.title}>Что покрывает гарантия AUTOSAFE24</h2>
         <div className={s.s}>
           <div className={s.items}>
             <div className={s.item}>

@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Question from "./components/Question/Question";
 import FeaturesIcons from "./components/FeaturesIcons/FeaturesIcons";
+import QuestionForm from "./components/QuestionForm/QuestionForm";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <About />
       <FeaturesIcons />
       <Reviews />
-      <Contact />
+      <QuestionForm />
       <Footer />
     </div>
   );
