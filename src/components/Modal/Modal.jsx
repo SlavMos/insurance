@@ -20,9 +20,10 @@ const Modal = ({ isOpen, onClose }) => {
     }
 
     setError(""); // Очистка ошибки
-
-    const TOKEN = "7541896677:AAH3CPluePLck6sgYi7hhz1nJA5Ys0oLqsM"; // Замени на свой токен
-    const CHAT_ID = "239462362"; // Замени на свой chat_id
+    const TOKEN = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
+    const TG_CHAT_ID = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
+    // const TOKEN = "7541896677:AAH3CPluePLck6sgYi7hhz1nJA5Ys0oLqsM"; // Замени на свой токен
+    // const CHAT_ID = "239462362"; // Замени на свой chat_id
     const URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
     const message = `📩 Новый вопрос!\n👤 Имя: ${firstName} ${lastName}\n📞 Телефон: ${phone}\n❓ Вопрос: ${question}`;
@@ -31,7 +32,7 @@ const Modal = ({ isOpen, onClose }) => {
       const response = await fetch(URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ chat_id: CHAT_ID, text: message }),
+        body: JSON.stringify({ chat_id: TG_CHAT_ID, text: message }),
       });
 
       if (response.ok) {
