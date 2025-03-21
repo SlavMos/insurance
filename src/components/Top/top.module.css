@@ -302,14 +302,11 @@
     text-align: center;
     height: auto;
   }
-  .container {
-    height: 60vh; /* Уменьшаем высоту контейнера при 768px */
-  }
 }
 
 @media (max-width: 480px) {
   .item {
-    padding: 15px 150px;
+    padding: 15px 100px;
     margin-bottom: 50px;
   }
   .topTitle {
