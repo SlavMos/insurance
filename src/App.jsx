@@ -18,13 +18,13 @@ function App() {
     <div>
       <Header />
       <Content />
-      <Question />
-      <Tariffs />
+      {/* <Question /> */}
+      {/* <Tariffs />
       <About />
       <FeaturesIcons />
       <Reviews />
       <QuestionForm />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

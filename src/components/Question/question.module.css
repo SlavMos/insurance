@@ -35,3 +35,78 @@
   font-weight: 500;
   color: #ffffff;
 }
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.question {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px;
+  min-height: 100px;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 19px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #e6e6e6;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* === АДАПТИВ === */
+
+/* Планшеты */
+@media (max-width: 1024px) {
+  .question {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/* Телефоны */
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px;
+  }
+}
