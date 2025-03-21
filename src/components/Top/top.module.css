@@ -249,7 +249,9 @@
   }
   .item {
     padding: 15px 200px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; /* Центрирование элементов */
   }
 }
 @media (max-width: 820px) {
