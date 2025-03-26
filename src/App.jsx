@@ -21,10 +21,10 @@ function App() {
       <Question />
       <Tariffs />
       <About />
-      {/* <FeaturesIcons />
-      <Reviews />
+      <FeaturesIcons />
+      {/* <Reviews />
       <QuestionForm />
-      <Footer />  */}
+      <Footer />   */}
     </div>
   );
 }

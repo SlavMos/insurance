@@ -7,11 +7,7 @@ const FeaturesIcons = () => {
         <h1 className={s.heading}>Как работает гарантия на автомобили</h1>
         <div className={s.featuresIcons}>
           <div className={s.features}>
-            <img
-              className={s.img}
-              src="../../../public/icons/attachment (4).png"
-              alt=""
-            />
+            <img className={s.img} src="/icons/attachment (4).png" alt="" />
             <h4 className={s.title}>Произошла поломка автомобиля</h4>
           </div>
           <div className={s.features}>

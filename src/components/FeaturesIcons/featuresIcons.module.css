@@ -92,3 +92,14 @@
   width: 80px;
   height: 80px;
 }
+@media (max-width: 750px) {
+  .featuresIcons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .heading {
+    line-height: 1.5;
+  }
+}
