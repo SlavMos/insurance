@@ -23,8 +23,8 @@ function App() {
       <About />
       <FeaturesIcons />
       <Reviews />
-      {/* <QuestionForm />
-      <Footer />   */}
+      <QuestionForm />
+      <Footer />
     </div>
   );
 }
