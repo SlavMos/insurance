@@ -4,12 +4,16 @@
   margin: 0 auto;
 }
 
+.topHeading {
+  margin-bottom: 50px;
+}
+
 .top {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .items {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   justify-content: space-around;
 }
@@ -245,13 +249,14 @@
 }
 @media (max-width: 950px) {
   .items {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
   .item {
     padding: 15px 200px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center; /* Центрирование элементов */
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 820px) {
