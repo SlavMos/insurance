@@ -20,11 +20,11 @@ function App() {
       <Content />
       <Question />
       <Tariffs />
-      {/* <About />
-      <FeaturesIcons />
+      <About />
+      {/* <FeaturesIcons />
       <Reviews />
       <QuestionForm />
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 }
