@@ -22,8 +22,8 @@ function App() {
       <Tariffs />
       <About />
       <FeaturesIcons />
-      {/* <Reviews />
-      <QuestionForm />
+      <Reviews />
+      {/* <QuestionForm />
       <Footer />   */}
     </div>
   );
