@@ -18,7 +18,7 @@ function App() {
     <div>
       <Header />
       <Content />
-      {/* <Question /> */}
+      <Question />
       {/* <Tariffs />
       <About />
       <FeaturesIcons />
