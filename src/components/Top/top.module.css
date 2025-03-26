@@ -316,7 +316,6 @@
 @media (max-width: 480px) {
   .item {
     padding: 15px 100px;
-    margin-bottom: 50px;
   }
   .topTitle {
     font-size: 1.6rem;
