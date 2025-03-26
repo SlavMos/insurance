@@ -256,6 +256,8 @@
   }
   .item {
     padding: 15px 200px;
+  }
+  .button {
     margin-bottom: 50px;
   }
 }
