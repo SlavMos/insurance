@@ -20,6 +20,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 /* Текст, который появляется ниже кнопок */
@@ -174,11 +175,6 @@ th {
   text-align: center;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .title {
   font-size: 2rem;
   font-weight: bold;
@@ -283,4 +279,14 @@ button:focus {
 .price {
   font-size: 25px;
   font-weight: 700;
+}
+@media (max-width: 490px) {
+  .title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .title {
+    font-size: 17px;
+  }
 }

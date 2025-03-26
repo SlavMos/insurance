@@ -19,8 +19,8 @@ function App() {
       <Header />
       <Content />
       <Question />
-      {/* <Tariffs />
-      <About />
+      <Tariffs />
+      {/* <About />
       <FeaturesIcons />
       <Reviews />
       <QuestionForm />
