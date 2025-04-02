@@ -283,6 +283,11 @@ button:focus {
 @media (max-width: 490px) {
   .title {
     font-size: 20px;
+    padding-bottom: 19px;
+  }
+  .info {
+    padding: 4px 18px;
+    font-size: 12px;
   }
 }
 @media (max-width: 405px) {

@@ -15,13 +15,13 @@ const Header = () => {
           <nav className={`${s.menu} ${isOpen ? s.active : ""}`}>
             <ul className={s.menu__List}>
               <li className={s.menu__item}>
-                <a href="#" className={s.menu__listLink}>
+                <a href="#top" className={s.menu__listLink}>
                   О НАС
                 </a>
               </li>
 
               <li className={s.menu__item}>
-                <a href="#" className={s.menu__listLink}>
+                <a href="#reviews" className={s.menu__listLink}>
                   ОТЗЫВЫ
                 </a>
               </li>

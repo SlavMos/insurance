@@ -88,7 +88,7 @@ const Content = () => {
   );
 
   return (
-    <section className={s.top}>
+    <section className={s.top} id="top">
       <div className={s.container}>
         <div className={s.topHeading}>
           <div className={s.gradient}>

@@ -40,7 +40,7 @@ const Reviews = () => {
   };
 
   return (
-    <section className="reviews">
+    <section className="reviews" id="reviews">
       <div className="container">
         <h3 className="reviews__title">Отзывы</h3>
         <div className="reviews__slider">
