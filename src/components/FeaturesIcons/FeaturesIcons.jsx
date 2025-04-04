@@ -16,6 +16,7 @@ const FeaturesIcons = () => {
           </div>
           <div className={s.features}>
             <svg
+              className={s.svg}
               xmlns="http://www.w3.org/2000/svg"
               width="80"
               height="80"

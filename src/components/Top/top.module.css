@@ -108,6 +108,7 @@
   max-width: 455px;
   color: #02050199;
   margin-left: -2px;
+  order: 1;
 }
 
 .topContent {
@@ -190,6 +191,7 @@
   align-items: center; /* Чтобы картинка была по центру */
   width: 100%; /* Растягивает картинку по ширине */
   max-width: 400px; /* Ограничиваем максимальную ширину картинки */
+  order: 3;
 }
 .image {
   width: 100%;
@@ -305,11 +307,21 @@
     color: #02050199;
     margin-left: 0px;
   }
+  .topContent {
+    order: 2; /* Текст будет снизу */
+  }
+
+  .img {
+    order: 1; /* Картинка будет сверху */
+  }
 
   .gradient {
     flex-direction: column;
     text-align: center;
     height: auto;
+  }
+  .about {
+    padding-bottom: 28px;
   }
 }
 
@@ -318,11 +330,11 @@
     padding: 15px 100px;
   }
   .topTitle {
-    font-size: 1.6rem;
+    font-size: 2.1rem;
   }
 
   .topText {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   .about {
